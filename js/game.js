@@ -14,5 +14,5 @@ function GEBI(id){
     return document.getElementById(id+"Div")
 }
 let divs = [
-    GEBI("Clicks")
+    GEBI("Click")
 ]
