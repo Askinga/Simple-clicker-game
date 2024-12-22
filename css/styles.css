@@ -29,3 +29,14 @@
     font-size: 1.3em;
     box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.75);
 }
+.Title {
+    font-size: 1.9em;
+    white-space: nowrap;
+}
+.Desc {
+    margin-top: 2px;
+    font-size: 0.8em;
+    line-height: 0.8em;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    white-space: pre-wrap;
+}
