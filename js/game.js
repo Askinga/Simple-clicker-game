@@ -7,3 +7,6 @@ let ResetCurrencies = {
 let elements = {
     pressClickButton: document.getElementById("PressClickButton")
 }
+function Click(){
+   Currencies.clicks = Currency.clicks.add(1)
+}
