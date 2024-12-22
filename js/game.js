@@ -10,3 +10,9 @@ let elements = {
 function Click(){
    Currencies.clicks = Currency.clicks.add(1)
 }
+function GEBI(id){
+    return document.getElementById(id+"Div")
+}
+let divs = [
+    GEBI("Clicks")
+]
