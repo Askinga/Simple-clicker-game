@@ -1,3 +1,7 @@
+body{
+    background-color: radial-gradient(#00fbff, #165657);
+    transition: all 0.3s;
+}
 .ResetButton {
     width: 80%;
     height: auto;
