@@ -4,7 +4,7 @@
     user-select:none;
 }
 body{
-    background-color: rgb(180,255,255);
+    background-color: radial-gradient(rgb(180,255,255), rgb(200,255,255));
     transition: all 0.3s;
 }
 
