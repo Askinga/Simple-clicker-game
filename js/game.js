@@ -5,17 +5,24 @@ let ResetCurrencies = {
     PPts: 0
 }
 let elements = {
-    clickButton: document.getElementById("ClickButton")
+    clickButton: document.getElementById("ClickButton");
 }
 function Click(){
-   Currencies.clicks = Currency.clicks.add(1)
+   setReset(1);
+ 	 Currencies.clicks = Currency.clicks.add(1);
 }
 function GEBI(id){
-    return document.getElementById(id+"Div")
+    return document.getElementById(id+"Div");
 }
 let divs = [
     GEBI("Click")
 ]
+function SetReset(value){
+    if (Currencies.BestReset < value){
+        Currencies.BestReset = value
+        ShowUI();
+    }
+}
 function ShowUI(){
     document.getElementById('TierStroke').style.display = reset2 >= 1 ? "block" : "none"
     document.getElementById('tierLabel').style.display = document.getElementById('TierStroke').style.display
