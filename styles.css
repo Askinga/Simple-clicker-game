@@ -207,7 +207,7 @@ body{
 #ClickDiv{
     top: 110px;
     left: 0px;
-    background-color: rgb(180,255,255);
+    background-image: radial-gradient(rgb(180,255,255), rgb(255,180,255));
 }
 #LeavesDiv{
     top: 110px;
